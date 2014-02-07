@@ -432,7 +432,7 @@ u"""
 entry(
         index = 11,
         label = "N3sH2-aromatic",
-        group = "OR{N3sH2-Cb, N3sH2-N5ring}"),
+        group = "OR{N3sH2-Cb,N3sH2-N5ring}",
         solute = SoluteData(
          S =  0.383,
          B =  0.275,
@@ -472,7 +472,7 @@ u"""
 entry(
         index = 13,
         label = "N3sH-aromatic",
-        group = "OR{N3sH-Cb, N3sH-N5ring}"),
+        group = "OR{N3sH-Cb,N3sH-N5ring}",
         solute = SoluteData(
          S =  0.311,
          B =  0.415,
@@ -538,7 +538,7 @@ u"""
 entry(
         index = 16,
         label = "N3s-noH-aromatic",
-        group = "OR{N3s-noH-Cb, N3s-noH-N5ring}"),
+        group = "OR{N3s-noH-Cb,N3s-noH-N5ring}",
         solute = SoluteData(
          S =  0.295,
          B =  0.321,
@@ -602,10 +602,10 @@ u"""
 
 entry(
       index = 19,
-      label = "Nb",
+      label = "N3b",
       group =
 """
-1 * Nb 0
+1 * N3b 0
 """,
     solute = SoluteData(
          S =  0.254,
@@ -623,10 +623,10 @@ u"""
 
 entry(
       index = 20,
-      label = "Nbpyr",
+      label = "N3bpyr",
       group =
 """
-1 * Nb 0 {2,B} {6,B}
+1 * N3b 0 {2,B} {6,B}
 2   Cb 0 {1,B} {3,B}
 3   Cb 0 {2,B} {4,B}
 4   Cb 0 {3,B} {5,B}
@@ -671,7 +671,7 @@ u"""
 entry(
         index = 22,
         label = "N3t-aromatic",
-        group = "OR{N3t-Cb, N3t-N5ring}"),
+        group = "OR{N3t-Cb,N3t-N5ring}",
         solute = SoluteData(
          S =  0.39,
          B =  0.103,
@@ -830,8 +830,8 @@ entry(
 """
 1 * Ss      0 {2,S} {5,S}
 2   Cb      0 {1,S} {3,B}
-3   {Cb,Nb} 0 {2,B} {4,B}
-4   {Cb,Nb} 0 {3,B} {5,B}
+3   {Cb,N3b} 0 {2,B} {4,B}
+4   {Cb,N3b} 0 {3,B} {5,B}
 5   Cb      0 {1,S} {4,B}
 
 """,
@@ -1015,7 +1015,7 @@ entry(
     shortDesc = u"""same as Platts group 7""",
     longDesc = 
 u"""
-Cb is attached to a 3rd R group that isn't in the ring, as in phenol.
+Cb is attached to a 3rd R group that isn't in the ring,as in phenol.
 """
 )
 
@@ -1028,11 +1028,11 @@ entry(
 2   H        0 {1,S}
 3   H        0 {1,S}
 4   Cb       0 {1,S} {5,B} {6,B}
-5   {Cb, Nb} 0 {4,B} {7,B}
-6   {Cb, Nb} 0 {4,B} {8,B}
-7   {Cb, Nb} 0 {5,B} {9,B}
-8   {Cb, Nb} 0 {6,B} {9,B}
-9   {Cb, Nb} 0 {7,B} {8,B}
+5   {Cb,N3b} 0 {4,B} {7,B}
+6   {Cb,N3b} 0 {4,B} {8,B}
+7   {Cb,N3b} 0 {5,B} {9,B}
+8   {Cb,N3b} 0 {6,B} {9,B}
+9   {Cb,N3b} 0 {7,B} {8,B}
 """,
     solute = None,
     shortDesc = u"""""",
@@ -1050,11 +1050,11 @@ entry(
 1 * N3s      0 {2,S} {3,S} {4,S}
 2   H        0 {1,S}
 3   H        0 {1,S}
-4   N3s      0 {1,S} {5,B} {6,B}
-5   {Cb, Nb} 0 {4,S} {7,B}
-6   {Cb, Nb} 0 {4,S} {8,B}
-7   {Cb, Nb} 0 {5,B} {8,B}
-8   {Cb, Nb} 0 {6,B} {7,B}
+4   N3s      0 {1,S} {5,S} {6,S}
+5   {Cb,N3b} 0 {4,S} {7,B}
+6   {Cb,N3b} 0 {4,S} {8,B}
+7   {Cb,N3b} 0 {5,B} {8,B}
+8   {Cb,N3b} 0 {6,B} {7,B}
 """,
     solute = None,
     shortDesc = u"""""",
@@ -1073,11 +1073,11 @@ entry(
 2   H        0 {1,S}
 3   R!H      0 {1,S}
 4   Cb       0 {1,S} {5,B} {6,B}
-5   {Cb, Nb} 0 {4,B} {7,B}
-6   {Cb, Nb} 0 {4,B} {8,B}
-7   {Cb, Nb} 0 {5,B} {9,B}
-8   {Cb, Nb} 0 {6,B} {9,B}
-9   {Cb, Nb} 0 {7,B} {8,B}
+5   {Cb,N3b} 0 {4,B} {7,B}
+6   {Cb,N3b} 0 {4,B} {8,B}
+7   {Cb,N3b} 0 {5,B} {9,B}
+8   {Cb,N3b} 0 {6,B} {9,B}
+9   {Cb,N3b} 0 {7,B} {8,B}
 """,
     solute = None,
     shortDesc = u"""""",
@@ -1095,11 +1095,11 @@ entry(
 1 * N3s      0 {2,S} {3,S} {4,S}
 2   H        0 {1,S}
 3   R!H      0 {1,S}
-4   N3s      0 {1,S} {5,B} {6,B}
-5   {Cb, Nb} 0 {4,S} {7,B}
-6   {Cb, Nb} 0 {4,S} {8,B}
-7   {Cb, Nb} 0 {5,B} {8,B}
-8   {Cb, Nb} 0 {6,B} {7,B}
+4   N3s      0 {1,S} {5,S} {6,S}
+5   {Cb,N3b} 0 {4,S} {7,B}
+6   {Cb,N3b} 0 {4,S} {8,B}
+7   {Cb,N3b} 0 {5,B} {8,B}
+8   {Cb,N3b} 0 {6,B} {7,B}
 """,
     solute = None,
     shortDesc = u"""""",
@@ -1118,11 +1118,11 @@ entry(
 2   R!H        0 {1,S}
 3   R!H      0 {1,S}
 4   Cb       0 {1,S} {5,B} {6,B}
-5   {Cb, Nb} 0 {4,B} {7,B}
-6   {Cb, Nb} 0 {4,B} {8,B}
-7   {Cb, Nb} 0 {5,B} {9,B}
-8   {Cb, Nb} 0 {6,B} {9,B}
-9   {Cb, Nb} 0 {7,B} {8,B}
+5   {Cb,N3b} 0 {4,B} {7,B}
+6   {Cb,N3b} 0 {4,B} {8,B}
+7   {Cb,N3b} 0 {5,B} {9,B}
+8   {Cb,N3b} 0 {6,B} {9,B}
+9   {Cb,N3b} 0 {7,B} {8,B}
 """,
     solute = None,
     shortDesc = u"""""",
@@ -1140,11 +1140,11 @@ entry(
 1 * N3s      0 {2,S} {3,S} {4,S}
 2   R!H      0 {1,S}
 3   R!H      0 {1,S}
-4   N3s      0 {1,S} {5,B} {6,B}
-5   {Cb, Nb} 0 {4,S} {7,B}
-6   {Cb, Nb} 0 {4,S} {8,B}
-7   {Cb, Nb} 0 {5,B} {8,B}
-8   {Cb, Nb} 0 {6,B} {7,B}
+4   N3s      0 {1,S} {5,S} {6,S}
+5   {Cb,N3b} 0 {4,S} {7,B}
+6   {Cb,N3b} 0 {4,S} {8,B}
+7   {Cb,N3b} 0 {5,B} {8,B}
+8   {Cb,N3b} 0 {6,B} {7,B}
 """,
     solute = None,
     shortDesc = u"""""",
@@ -1164,11 +1164,11 @@ entry(
 2   Os       0 {1,S}
 3   Os       0 {1,S}
 4   Cb       0 {1,S} {5,B} {6,B}
-5   {Cb, Nb} 0 {4,B} {7,B}
-6   {Cb, Nb} 0 {4,B} {8,B}
-7   {Cb, Nb} 0 {5,B} {9,B}
-8   {Cb, Nb} 0 {6,B} {9,B}
-9   {Cb, Nb} 0 {7,B} {8,B}
+5   {Cb,N3b} 0 {4,B} {7,B}
+6   {Cb,N3b} 0 {4,B} {8,B}
+7   {Cb,N3b} 0 {5,B} {9,B}
+8   {Cb,N3b} 0 {6,B} {9,B}
+9   {Cb,N3b} 0 {7,B} {8,B}
 """,
     solute = SoluteData(
          S =  -0.231,
@@ -1191,12 +1191,12 @@ entry(
 """
 1 * N3s      0 {2,S} {3,S} {4,S}
 2   Os       0 {1,S}
-3   Os      0 {1,S}
-4   N3s      0 {1,S} {5,B} {6,B}
-5   {Cb, Nb} 0 {4,S} {7,B}
-6   {Cb, Nb} 0 {4,S} {8,B}
-7   {Cb, Nb} 0 {5,B} {8,B}
-8   {Cb, Nb} 0 {6,B} {7,B}
+3   Os       0 {1,S}
+4   N3s      0 {1,S} {5,S} {6,S}
+5   {Cb,N3b} 0 {4,S} {7,B}
+6   {Cb,N3b} 0 {4,S} {8,B}
+7   {Cb,N3b} 0 {5,B} {8,B}
+8   {Cb,N3b} 0 {6,B} {7,B}
 """,
     solute = SoluteData(
          S =  -0.231,
@@ -1236,11 +1236,11 @@ entry(
 """
 1 * N3t      0 {2,T}
 2   Ct       0 {1,T} {3,S}
-3   N3s      0 {2,S} {4,B} {5,B}
-4   {Cb, Nb} 0 {3,S} {6,B}
-5   {Cb, Nb} 0 {3,S} {7,B}
-6   {Cb, Nb} 0 {4,B} {7,B}
-7   {Cb, Nb} 0 {5,B} {6,B}
+3   N3s      0 {2,S} {4,S} {5,S}
+4   {Cb,N3b} 0 {3,S} {6,B}
+5   {Cb,N3b} 0 {3,S} {7,B}
+6   {Cb,N3b} 0 {4,B} {7,B}
+7   {Cb,N3b} 0 {5,B} {6,B}
 """,
     solute = None,
     shortDesc = u"""""",
@@ -1344,8 +1344,8 @@ L1: N
             L4: N3t-N5ring
             
     
-    L2: Nb
-        L3: Nbpyr
+    L2: N3b
+        L3: N3bpyr
 
 L1: S
     
