@@ -7894,7 +7894,7 @@ u"""
 entry(
     index = 444,
     label = "Xbirad_H",
-    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}",
+    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H, Si_singlet_H}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
@@ -8721,6 +8721,59 @@ u"""
 """,
 )
 
+entry(
+    index = 494,
+    label = "SiH2_singlet_H",
+    group = 
+"""
+1 *1 Si 2S {2,S} {3,S}
+2 *2 H 0  {1,S}
+3    H 0  {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 495,
+    label = "Si_rad",
+    group = 
+"""
+1 *3 Si 1 {2,S} {3,S} {4,S}
+2    R 0 {1,S}
+3    R 0 {1,S}
+4    R 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 496,
+    label = "Si_silyl",
+    group = 
+"""
+1 *3 Si 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -8958,6 +9011,7 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: CH2_singlet_H
 		L3: NH_triplet_H
 		L3: NH_singlet_H
+	L3: SiH2_singlet_H
     L2: Xtrirad_H
         L3: C_quartet_H
         L3: C_doublet_H
@@ -9190,6 +9244,8 @@ L1: Y_rad_birad_trirad_quadrad
                         L7:N3d_rad/OneDeCdd_O
         L3: N5_rad
             L4: N5d_rad
+	L3: Si_rad
+	    L4: Si_silyl
 """
 )
 
