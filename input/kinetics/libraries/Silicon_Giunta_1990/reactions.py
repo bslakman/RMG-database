@@ -7,7 +7,11 @@ Authors C.J. Giunta, R.J. McCurdy, J.D. ChappleSokol, and R.G. Gordon
 
 entry(
 		index = 1,
+<<<<<<< HEAD
 		label = "SiH4 <==> SiH2 + H2",
+=======
+		label = "SiH4 <=> SiH2 + H2",
+>>>>>>> 05663f470daccaa457e427706eaaf8e8697bc7e4
 		degeneracy = 1,
 		kinetics = Arrhenius(A=(3.3E15, '1/s'), n=-0.5, Ea=(55.9, 'kcal/mol')),
 		longDesc = u"""
@@ -17,7 +21,11 @@ entry(
 
 entry(
                 index = 2,
+<<<<<<< HEAD
                 label = "Si2H6 <==> SiH2 + SiH4",
+=======
+                label = "Si2H6 <=> SiH2 + SiH4",
+>>>>>>> 05663f470daccaa457e427706eaaf8e8697bc7e4
                 degeneracy = 1,
                 kinetics = Arrhenius(A=(2.5E19, '1/s'), n=-1.0, Ea=(54.9, 'kcal/mol')),
                 longDesc = u"""
@@ -27,7 +35,11 @@ entry(
 
 entry(
                 index = 3,
+<<<<<<< HEAD
                 label = "Si2H6 <==> SiH3SiH + H2",
+=======
+                label = "Si2H6 <=> SiH3SiH + H2",
+>>>>>>> 05663f470daccaa457e427706eaaf8e8697bc7e4
                 degeneracy = 1,
                 kinetics = Arrhenius(A=(2.0E15, '1/s'), n=0.0, Ea=(55.3, 'kcal/mol')),
                 longDesc = u"""
@@ -37,7 +49,11 @@ entry(
 
 entry(
                 index = 4,
+<<<<<<< HEAD
                 label = "Si3H8 <==> SiH2 + Si2H6",
+=======
+                label = "Si3H8 <=> SiH2 + Si2H6",
+>>>>>>> 05663f470daccaa457e427706eaaf8e8697bc7e4
                 degeneracy = 1,
                 kinetics = Arrhenius(A=(2.6E19, '1/s'), n=-1.0, Ea=(55.5, 'kcal/mol')),
                 longDesc = u"""
@@ -46,6 +62,7 @@ entry(
                 )
 
 entry(
+<<<<<<< HEAD
                 index = 21,
                 label = "SiH2 + H2 <==> SiH4",
                 degeneracy = 1,
@@ -60,11 +77,16 @@ entry(
 entry(
                 index = 5,
                 label = "Si3H8 <==> SiH3SiH + SiH4",
+=======
+                index = 5,
+                label = "Si3H8 <=> SiH3SiH + SiH4",
+>>>>>>> 05663f470daccaa457e427706eaaf8e8697bc7e4
                 degeneracy = 1,
                 kinetics = Arrhenius(A=(4.8E14, '1/s'), n=0.0, Ea=(49.2, 'kcal/mol')),
                 longDesc = u"""
                 Added by Belinda Slakman from Giunta et al., 1990, J. Appl. Phys.
                 """
+<<<<<<< HEAD
                 )
 
 entry(
@@ -110,6 +132,13 @@ entry(
 entry(
                 index = 11,
                 label = "SiH3SiH <==> SiH2=SiH2",
+=======
+		)
+
+entry(
+                index = 11,
+                label = "SiH3SiH <=> SiH2SiH2",
+>>>>>>> 05663f470daccaa457e427706eaaf8e8697bc7e4
                 degeneracy = 1,
                 kinetics = Arrhenius(A=(1.15E20, '1/s'), n=-3.06, Ea=(6.63, 'kcal/mol')),
                 longDesc = u"""
@@ -118,6 +147,7 @@ entry(
                 )
 
 entry(
+<<<<<<< HEAD
                 index = 31,
                 label = "SiH2=SiH2 <==> SiH3SiH",
                 degeneracy = 1,
@@ -130,6 +160,10 @@ entry(
 entry(
                 index = 16,
                 label = "SiH2 + SiH2 <==> SiH2=SiH2",
+=======
+                index = 16,
+                label = "SiH2 + SiH2 <=> SiH2SiH2",
+>>>>>>> 05663f470daccaa457e427706eaaf8e8697bc7e4
                 degeneracy = 1,
                 kinetics = Arrhenius(A=(2.5E14, 'cm^3/mol/s'), n=0.0, Ea=(0.0, 'kcal/mol')),
                 longDesc = u"""
@@ -137,6 +171,7 @@ entry(
                 """
                 )
 
+<<<<<<< HEAD
 entry(
                 index = 36,
                 label = "SiH2=SiH2 <==> SiH2 + SiH2",
@@ -146,3 +181,5 @@ entry(
                 Added by Belinda Slakman from Giunta et al., 1990, J. Appl. Phys.
                 """
                 )
+=======
+>>>>>>> 05663f470daccaa457e427706eaaf8e8697bc7e4
