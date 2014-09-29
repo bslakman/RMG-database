@@ -8683,6 +8683,44 @@ u"""
 """,
 )
                                       
+entry(
+    index = 492,
+    label = "Si_H",
+    group = 
+"""
+1 *1 Si 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    R 0 {1,S}
+4    R 0 {1,S}
+5    R 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
+entry(
+    index = 493,
+    label = "Si_silane",
+    group = 
+"""
+1 *1 Si 0 {2,S} {3,S} {4,S} {5,S}
+2 *2 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
+""",
+    kinetics = None,
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
@@ -8903,6 +8941,8 @@ L1: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
         L3: N5_H
             L4: N5d_H
                 L5: N5d/H/NonDeOO
+	L3: Si_H
+	    L4: Si_silane 
     L2: Xrad_H
         L3: C_rad_H
             L4: CH3_rad_H
