@@ -7894,7 +7894,7 @@ u"""
 entry(
     index = 444,
     label = "Xbirad_H",
-    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H, Si_singlet_H}",
+    group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H, SiH2_singlet_H}",
     kinetics = None,
     shortDesc = u"""""",
     longDesc = 
