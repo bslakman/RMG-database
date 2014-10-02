@@ -7494,22 +7494,6 @@ u"""
 )
 
 entry(
-    index = 421,
-    label = "CH_quartet",
-    group = 
-"""
-1 *3 C 3 {2,s}
-2    H 0 {1,s}
-""",
-    kinetics = None,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-)
-
-entry(
     index = 422,
     label = "NH_triplet",
     group = 
