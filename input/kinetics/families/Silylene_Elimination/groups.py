@@ -9,24 +9,23 @@ longDesc = u"""
 
 template(reactants=["Y_Si2S_R_H2"], products=["Y_H", "Si2S_R_H"], ownReverse=False)
 
-reverse = "Silylene_Insertion"
+#reverse = "Silylene_Insertion"
 
 recipe(actions=[
-    ['BREAK_BOND', '*1', 'S', '*2'],
     ['BREAK_BOND', '*1', 'S', '*3'],
-    ['FORM_BOND', '*2', 'S', '*3'],
-    ['GAIN_PAIR', '*1', '1'],
-])
+    ['BREAK_BOND', '*2', 'S', '*3'],
+    ['FORM_BOND', '*1', 'S', '*2'],
+    ['GAIN_PAIR', '*3', '1'],])
 
 entry(
     index = 1,
     label = "Y_Si2S_R_H2",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 R  u0 p0 c0 {1,S}
+4 *1 R  u0 p0 c0 {1,S}
 5    R  u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -42,10 +41,10 @@ entry(
     label = "H_Si2S_R_H2",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 H  u0 p0 c0 {1,S}
+4 *1 H  u0 p0 c0 {1,S}
 5    R  u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -61,10 +60,10 @@ entry(
     label = "Si_Si2S_R_H2",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+4 *1 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 5    R  u0 p0 c0 {1,S}
 6    R  u0 p0 c0 {4,S}
 7    R  u0 p0 c0 {4,S}
@@ -83,10 +82,10 @@ entry(
     label = "SiH4",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 H  u0 p0 c0 {1,S}
+4 *1 H  u0 p0 c0 {1,S}
 5    H  u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -102,10 +101,10 @@ entry(
     label = "Si2H6_H",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 H  u0 p0 c0 {1,S}
+4 *1 H  u0 p0 c0 {1,S}
 5    Si  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 6    H  u0 p0 c0 {5,S}
 7    H  u0 p0 c0 {5,S}
@@ -124,10 +123,10 @@ entry(
     label = "Si3H8_H",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 H  u0 p0 c0 {1,S}
+4 *1 H  u0 p0 c0 {1,S}
 5    Si  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 6    H  u0 p0 c0 {5,S}
 7    H  u0 p0 c0 {5,S}
@@ -149,10 +148,10 @@ entry(
     label = "Si4H10_H",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 H  u0 p0 c0 {1,S}
+4 *1 H  u0 p0 c0 {1,S}
 5    Si  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 6    H  u0 p0 c0 {5,S}
 7    H  u0 p0 c0 {5,S}
@@ -177,10 +176,10 @@ entry(
     label = "Si2H6_Si",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+4 *1 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 5    H  u0 p0 c0 {1,S}
 6    H  u0 p0 c0 {4,S}
 7    H  u0 p0 c0 {4,S}
@@ -199,10 +198,10 @@ entry(
     label = "Si3H8_Si",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+4 *1 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 5    H  u0 p0 c0 {1,S}
 6    H  u0 p0 c0 {4,S}
 7    H  u0 p0 c0 {4,S}
@@ -224,10 +223,10 @@ entry(
     label = "Si4H10_Si",
     group = 
 """
-1 *1 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+1 *3 Si u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
 2 *2 H  u0 p0 c0 {1,S}
 3    H  u0 p0 c0 {1,S}
-4 *3 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+4 *1 Si u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
 5    H  u0 p0 c0 {1,S}
 6    H  u0 p0 c0 {4,S}
 7    H  u0 p0 c0 {4,S}
