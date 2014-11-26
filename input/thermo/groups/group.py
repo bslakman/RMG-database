@@ -41412,7 +41412,7 @@ entry(
     group = 
 """
 1 * Sis u0 p0 c0 {2,S}
-2   Sis u0 p1 c0 {1,S}
+2   Sis u0 p[1,2] c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
@@ -41601,9 +41601,7 @@ entry(
     label = "si",
     group = 
 """
-1 * Si u0 p1 c0 {2,S} {3,S}
-2   R u0 px c0 {1,S}
-3   R u0 px c0 {1,S}
+1 * Si u0 p[1,2] c0 
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
@@ -43735,7 +43733,7 @@ entry(
 """
 1 * Sis u0 p0 c0 {2,S} {3,S}
 2   Sis u0 p0 c0 {1,S}
-3   Si  u0 p1 c0 {1,S}
+3   Si  u0 p[1,2] c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
