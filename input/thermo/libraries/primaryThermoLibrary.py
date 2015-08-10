@@ -782,3 +782,21 @@ McBride, Heimel, Ehlers & Gordon, "Thermodynamic Properties to 6000 K", 1963.
 """,
 )
 
+entry(
+    index = 35,
+    label = "X",
+    molecule = 
+"""
+1 X u0 p0 c0
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0,0,0,0,0,0,0],'cal/(mol*K)'),
+        H298 = (0,'kcal/mol'),
+        S298 = (0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Empty surface site""",
+    longDesc = 
+u"""
+""",
+)
