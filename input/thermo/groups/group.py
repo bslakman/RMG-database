@@ -41670,7 +41670,7 @@ entry(
 """
 1 * Sid u0 p0 c0 {2,S} {3,S}
 2   H u0 p0 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
+3   Si u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
@@ -41690,8 +41690,8 @@ entry(
     group = 
 """
 1 * Sid u0 p0 c0 {2,S} {3,S}
-2   Sis u0 p0 c0 {1,S}
-3   Sis u0 p0 c0 {1,S}
+2   Si u0 p0 c0 {1,S}
+3   Si u0 p0 c0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300, 400, 500, 600, 800, 1000, 1500],'K'),
