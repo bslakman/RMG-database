@@ -169,7 +169,7 @@ u"""
 
 entry(
     index = 6,
-    label = "octane",
+    label = "n-octane",
     solvent = SolventData(
         s_g = 0,
         b_g = 0,
