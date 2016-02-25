@@ -35,7 +35,7 @@ def loadDatabase(args):
     print 'Loading RMG database...'
     from rmgpy.data.rmg import RMGDatabase
     rmgDatabase = RMGDatabase()
-    rmgDatabase.load('/Users/belinda/Code/RMG-database/input', kineticsFamilies='default')
+    rmgDatabase.load('/Users/belinda/Code/RMG-database/input', kineticsFamilies=args.family)
     
     rxnFamily = rmgDatabase.kinetics.families[args.family[0]]
     database = rxnFamily.solvationCorrections
