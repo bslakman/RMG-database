@@ -12,43 +12,130 @@ entry(
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
     group = "OR{X_H, Xrad_H, Xbirad_H, Xtrirad_H}",
     correction = BarrierCorrection(
-        correction = (1373.009962164701, 'J/mol'),
+        correction = (1924.7240190605164, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 47 solvation corrections.
+    shortDesc = u"""Fitted to 997 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=60 label="Cs_H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=64 label="C_alkane">, <Entry index=261 label="C_methyl">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=87 label="C/H2/NonDeC_6ring">, <Entry index=261 label="C_methyl">]
-[<Entry index=60 label="Cs_H">, <Entry index=261 label="C_methyl">]
-[<Entry index=64 label="C_alkane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=61 label="C_methane">, <Entry index=193 label="O_pri_rad">]
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C/H3/O', 'O_rad/NonDeO']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['C/H3/O\\H', 'C_methyl']
+['X_H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H3/O', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H3/O\\H', 'O_pri_rad']
+['C/H3/Cs\\H3', 'Y_1centerbirad']
+['O_sec', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'O_pri_rad']
+['O_sec', 'Y_1centerbirad']
+['Cs_H', 'O_pri_rad']
+['Xrad_H', 'O_pri_rad']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['X_H', 'Y_rad']
+['Xrad_H', 'C_methyl']
+['C/H3/Cs\\H3', 'Y_rad']
+['O/H/Cs\\H3', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'Y_1centerbirad']
+['X_H', 'Cs_rad']
+['Cs_H', 'Y_2centeradjbirad']
+['C/H2/Cs/O', 'Y_rad']
+['C/H2/Cs/O', 'C_methyl']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'Y_1centerbirad']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['X_H', 'Y_1centerbirad']
+['C/H2/Cs/O\\H', 'Y_rad']
+['C_methane', 'O_pri_rad']
+['O/H/NonDeC', 'O_pri_rad']
+['X_H', 'O_pri_rad']
+['C/H3/Cs\\Cs|H3', 'O_sec_rad']
+['O_sec', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_rad']
+['Cs_H', 'Y_1centerbirad']
+['C/H3/O\\H', 'Y_rad']
+['C/H3/Cs\\H3', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'Y_2centeradjbirad']
+['C/H3/O\\H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'C_methyl']
+['Cs_H', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_rad']
+['O/H/NonDeC', 'Cs_rad']
+['C/H3/O', 'C_methyl']
+['Xrad_H', 'Cs_rad']
+['Cs_H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['Cs_H', 'Y_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_2centeradjbirad']
+['C/H2/Cs/O\\H', 'Cs_rad']
+['O_sec', 'C_methyl']
+['C/H3/O', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_2centeradjbirad']
+['C/H3/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'O_rad/NonDeO']
+['C/H3/O', 'Y_1centerbirad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_1centerbirad']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['X_H', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['O/H/Cs\\Cs|H3', 'Y_rad']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_sec_rad']
+['C/H2/Cs/O', 'O_pri_rad']
+['C/H2/NonDeC_6ring', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_1centerbirad']
+['Xrad_H', 'Y_1centerbirad']
+['O_sec', 'O_sec_rad']
+['Cs_H', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
+['C_alkane', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'Y_rad']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['O/H/NonDeC', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'C_methyl']
+['O_sec', 'O_pri_rad']
+['C_alkane', 'C_methyl']
+['O/H/NonDeC', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'Cs_rad']
+['C/H2/Cs/O\\H', 'Y_1centerbirad']
+['C_methane', 'Y_1centerbirad']
+['C_alkane', 'Y_rad']
+['C_alkane', 'Y_2centeradjbirad']
+['CH2_triplet_H', 'Y_rad']
+['C/H3/Cs\\H3', 'C_methyl']
+['Xrad_H', 'O_sec_rad']
+['C/H3/O', 'O_sec_rad']
+['O_sec', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['O_sec', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Cs_rad']
+['CH2_triplet_H', 'O_pri_rad']
+['O/H/NonDeC', 'Y_2centeradjbirad']
+['C_methane', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'Y_1centerbirad']
+['C_alkane', 'O_sec_rad']
+['C_methane', 'Y_rad']
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['O/H/NonDeC', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['C/H3/O\\H', 'Y_1centerbirad']
+['C_alkane', 'Cs_rad']
+['O/H/NonDeC', 'Y_1centerbirad']
+['C/H3/Cs\\H3', 'Cs_rad']
+['O/H/NonDeC', 'O_rad/NonDeO']
+['Xrad_H', 'Y_rad']
+['Cs_H', 'O_rad/NonDeO']
 """,
 )
 
@@ -75,12 +162,18 @@ entry(
 2 *2 H u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = None,
+        correction = (-32.77245900610137, 'J/mol'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Fitted to 19 solvation corrections.
+""",
     longDesc = 
 u"""
-
+['Xrad_H', 'O_pri_rad']
+['Xrad_H', 'C_methyl']
+['Xrad_H', 'Cs_rad']
+['Xrad_H', 'O_sec_rad']
+['Xrad_H', 'Y_1centerbirad']
+['Xrad_H', 'Y_rad']
 """,
 )
 
@@ -89,12 +182,14 @@ entry(
     label = "Xbirad_H",
     group = "OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}",
     correction = BarrierCorrection(
-        correction = None,
+        correction = (-1304.760393443348, 'J/mol'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Fitted to 2 solvation corrections.
+""",
     longDesc = 
 u"""
-
+['CH2_triplet_H', 'O_pri_rad']
+['CH2_triplet_H', 'Y_rad']
 """,
 )
 
@@ -108,12 +203,14 @@ entry(
 3    H  u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = None,
+        correction = (-1304.7603934436256, 'J/mol'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Fitted to 2 solvation corrections.
+""",
     longDesc = 
 u"""
-
+['CH2_triplet_H', 'O_pri_rad']
+['CH2_triplet_H', 'Y_rad']
 """,
 )
 
@@ -231,43 +328,122 @@ entry(
 2 *2 H u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (-2.0652113706151138e-12, 'J/mol'),
+        correction = (2.988316686182843, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 47 solvation corrections.
+    shortDesc = u"""Fitted to 976 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=60 label="Cs_H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=64 label="C_alkane">, <Entry index=261 label="C_methyl">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=87 label="C/H2/NonDeC_6ring">, <Entry index=261 label="C_methyl">]
-[<Entry index=60 label="Cs_H">, <Entry index=261 label="C_methyl">]
-[<Entry index=64 label="C_alkane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=61 label="C_methane">, <Entry index=193 label="O_pri_rad">]
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C/H3/O', 'O_rad/NonDeO']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['C/H3/O\\H', 'C_methyl']
+['X_H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H3/O', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H3/O\\H', 'O_pri_rad']
+['C/H2/Cs/O', 'O_pri_rad']
+['O_sec', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'O_pri_rad']
+['O_sec', 'Y_1centerbirad']
+['Cs_H', 'O_pri_rad']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['X_H', 'Y_rad']
+['C_alkane', 'O_sec_rad']
+['O/H/Cs\\H3', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'Y_1centerbirad']
+['X_H', 'Cs_rad']
+['Cs_H', 'Y_2centeradjbirad']
+['C/H2/Cs/O', 'Y_rad']
+['C/H2/Cs/O', 'C_methyl']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'Y_1centerbirad']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['X_H', 'Y_1centerbirad']
+['C/H2/Cs/O\\H', 'Y_rad']
+['C_methane', 'O_pri_rad']
+['O/H/NonDeC', 'O_pri_rad']
+['X_H', 'O_pri_rad']
+['C/H3/Cs\\Cs|H3', 'O_sec_rad']
+['O_sec', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_rad']
+['Cs_H', 'Y_1centerbirad']
+['C/H3/O\\H', 'Y_rad']
+['C/H3/Cs\\H3', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'Y_2centeradjbirad']
+['C/H3/O\\H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'C_methyl']
+['Cs_H', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_rad']
+['O/H/NonDeC', 'Cs_rad']
+['C/H3/O', 'C_methyl']
+['Cs_H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['Cs_H', 'Y_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_2centeradjbirad']
+['C/H2/Cs/O\\H', 'Cs_rad']
+['O_sec', 'C_methyl']
+['C/H3/O', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_2centeradjbirad']
+['C/H3/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'O_rad/NonDeO']
+['C/H3/O', 'Y_1centerbirad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_1centerbirad']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['X_H', 'O_sec_rad']
+['O/H/Cs\\Cs|H3', 'Y_rad']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['C/H2/NonDeC_6ring', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_1centerbirad']
+['O_sec', 'O_sec_rad']
+['Cs_H', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
+['C_alkane', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'Y_rad']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['O/H/NonDeC', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'C_methyl']
+['O_sec', 'O_pri_rad']
+['C_alkane', 'C_methyl']
+['O/H/NonDeC', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'Cs_rad']
+['C/H2/Cs/O\\H', 'Y_1centerbirad']
+['C_methane', 'Y_1centerbirad']
+['C_alkane', 'Y_rad']
+['C_alkane', 'Y_2centeradjbirad']
+['C/H3/Cs\\H3', 'C_methyl']
+['C/H3/O', 'O_sec_rad']
+['O_sec', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['O_sec', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Cs_rad']
+['C/H3/Cs\\H3', 'Y_1centerbirad']
+['O/H/NonDeC', 'Y_2centeradjbirad']
+['C_methane', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'Y_1centerbirad']
+['C/H3/Cs\\H3', 'Y_rad']
+['C_methane', 'Y_rad']
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['O/H/NonDeC', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['C/H3/O\\H', 'Y_1centerbirad']
+['C_alkane', 'Cs_rad']
+['O/H/NonDeC', 'Y_1centerbirad']
+['C/H3/Cs\\H3', 'Cs_rad']
+['O/H/NonDeC', 'O_rad/NonDeO']
+['Cs_H', 'O_rad/NonDeO']
 """,
 )
 
@@ -281,21 +457,47 @@ entry(
 3    R u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (1282.2011790237714, 'J/mol'),
+        correction = (578.7081660630324, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 9 solvation corrections.
+    shortDesc = u"""Fitted to 93 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
+['O/H/Cs\\Cs|Cs/H3', 'Y_1centerbirad']
+['O/H/NonDeC', 'Y_1centerbirad']
+['O_sec', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['O_sec', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_rad']
+['O_sec', 'Cs_rad']
+['O/H/NonDeC', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['O/H/NonDeC', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['O_sec', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_pri_rad']
+['O_sec', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
+['O_sec', 'Y_1centerbirad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['O/H/NonDeC', 'Cs_rad']
+['O/H/NonDeC', 'C_methyl']
+['O/H/Cs\\H3', 'Y_rad']
+['O/H/Cs\\H3', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'Y_1centerbirad']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['O/H/NonDeC', 'Y_rad']
+['O_sec', 'O_pri_rad']
+['O/H/NonDeC', 'O_sec_rad']
+['O_sec', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'Cs_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_2centeradjbirad']
+['O/H/NonDeC', 'O_rad/NonDeO']
 """,
 )
 
@@ -309,21 +511,47 @@ entry(
 3    R!H u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (1282.201179023768, 'J/mol'),
+        correction = (578.708166063036, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 9 solvation corrections.
+    shortDesc = u"""Fitted to 93 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
+['O/H/Cs\\Cs|Cs/H3', 'Y_1centerbirad']
+['O/H/NonDeC', 'Y_1centerbirad']
+['O_sec', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['O_sec', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_rad']
+['O_sec', 'Cs_rad']
+['O/H/NonDeC', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['O/H/NonDeC', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['O_sec', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_pri_rad']
+['O_sec', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
+['O_sec', 'Y_1centerbirad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['O/H/NonDeC', 'Cs_rad']
+['O/H/NonDeC', 'C_methyl']
+['O/H/Cs\\H3', 'Y_rad']
+['O/H/Cs\\H3', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'Y_1centerbirad']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['O/H/NonDeC', 'Y_rad']
+['O_sec', 'O_pri_rad']
+['O/H/NonDeC', 'O_sec_rad']
+['O_sec', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'Cs_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_2centeradjbirad']
+['O/H/NonDeC', 'O_rad/NonDeO']
 """,
 )
 
@@ -337,21 +565,39 @@ entry(
 3    Cs u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (1282.2011790237698, 'J/mol'),
+        correction = (128.16278236336188, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 9 solvation corrections.
+    shortDesc = u"""Fitted to 51 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
+['O/H/Cs\\Cs|Cs/H3', 'Y_1centerbirad']
+['O/H/NonDeC', 'Y_1centerbirad']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_rad']
+['O/H/NonDeC', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['O/H/NonDeC', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['O/H/NonDeC', 'Cs_rad']
+['O/H/NonDeC', 'C_methyl']
+['O/H/Cs\\H3', 'Y_rad']
+['O/H/Cs\\H3', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'Y_1centerbirad']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['O/H/NonDeC', 'Y_rad']
+['O/H/NonDeC', 'O_sec_rad']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'Cs_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_2centeradjbirad']
+['O/H/NonDeC', 'O_rad/NonDeO']
 """,
 )
 
@@ -368,15 +614,16 @@ entry(
 6 *2 H  u0 {2,S}
 """,
     correction = BarrierCorrection(
-        correction = (1443.127592317363, 'J/mol'),
+        correction = (251.96574375000228, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 4 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
+['O/H/Cs\\H3', 'Y_rad']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'C_methyl']
+['O/H/Cs\\H3', 'O_pri_rad']
 """,
 )
 
@@ -394,15 +641,20 @@ entry(
 7 *2 H  u0 {3,S}
 """,
     correction = BarrierCorrection(
-        correction = (-179.39404762033018, 'J/mol'),
+        correction = (82.9332743916593, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 24 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'Cs_rad']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'Y_1centerbirad']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_rad']
 """,
 )
 
@@ -421,15 +673,19 @@ entry(
 8 *2 H  u0 {4,S}
 """,
     correction = BarrierCorrection(
-        correction = (2582.86999237429, 'J/mol'),
+        correction = (530.2190198324859, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 11 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
+['O/H/Cs\\Cs|Cs/H3', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|Cs/H3', 'Y_1centerbirad']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['O/H/Cs\\Cs|Cs/H3', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
 """,
 )
 
@@ -442,34 +698,81 @@ entry(
 2 *2 H u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (-312.53653738704156, 'J/mol'),
+        correction = (-258.63566800603064, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 38 solvation corrections.
+    shortDesc = u"""Fitted to 819 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=60 label="Cs_H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=64 label="C_alkane">, <Entry index=261 label="C_methyl">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=87 label="C/H2/NonDeC_6ring">, <Entry index=261 label="C_methyl">]
-[<Entry index=60 label="Cs_H">, <Entry index=261 label="C_methyl">]
-[<Entry index=64 label="C_alkane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=61 label="C_methane">, <Entry index=193 label="O_pri_rad">]
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C_alkane', 'Y_2centeradjbirad']
+['C/H3/O', 'O_rad/NonDeO']
+['Cs_H', 'O_pri_rad']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'Y_rad']
+['Cs_H', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['C/H3/Cs\\Cs|H3', 'Cs_rad']
+['C/H3/O\\H', 'C_methyl']
+['C/H2/Cs/Cs\\O|H', 'Cs_rad']
+['C_alkane', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'Y_rad']
+['Cs_H', 'Y_1centerbirad']
+['C/H3/O\\H', 'Y_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_2centeradjbirad']
+['C/H3/Cs\\H3', 'O_sec_rad']
+['C/H3/Cs\\Cs|H3', 'Y_1centerbirad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_pri_rad']
+['C/H3/Cs\\H3', 'Y_1centerbirad']
+['C_methane', 'O_rad/NonDeO']
+['C/H2/NonDeC_6ring', 'C_methyl']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/O', 'O_pri_rad']
+['C/H3/O\\H', 'Cs_rad']
+['Cs_H', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'Y_2centeradjbirad']
+['C_alkane', 'Y_rad']
+['C_alkane', 'O_pri_rad']
+['C/H3/Cs\\Cs|H3', 'O_pri_rad']
+['C_alkane', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'Y_1centerbirad']
+['Cs_H', 'C_methyl']
+['C/H3/Cs\\H3', 'C_methyl']
+['C/H3/O', 'O_sec_rad']
+['C/H3/Cs\\Cs|H3', 'Y_rad']
+['C/H2/Cs/O\\H', 'Cs_rad']
+['C/H3/Cs\\H3', 'Y_rad']
+['Cs_H', 'Cs_rad']
+['C/H3/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['C/H3/O\\H', 'Y_1centerbirad']
+['C_alkane', 'Cs_rad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['Cs_H', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'C_methyl']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'C_methyl']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H2/Cs/O', 'C_methyl']
+['Cs_H', 'Y_2centeradjbirad']
+['C/H2/Cs/Cs\\O|H', 'Y_1centerbirad']
+['C_alkane', 'C_methyl']
+['C/H3/Cs\\H3', 'Cs_rad']
+['C/H3/O', 'O_pri_rad']
+['C/H3/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'Y_1centerbirad']
+['C/H3/O', 'Y_rad']
+['C_methane', 'Y_rad']
+['C/H3/O', 'Y_1centerbirad']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['C/H3/O', 'C_methyl']
+['C/H2/Cs/O', 'Y_rad']
+['C_methane', 'O_pri_rad']
+['C_methane', 'Y_1centerbirad']
 """,
 )
 
@@ -485,22 +788,39 @@ entry(
 5 *2 H      u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (-1259.6261263228612, 'J/mol'),
+        correction = (-1177.755806692873, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 13 solvation corrections.
+    shortDesc = u"""Fitted to 154 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=64 label="C_alkane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=261 label="C_methyl">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=61 label="C_methane">, <Entry index=193 label="O_pri_rad">]
+['C_alkane', 'Y_rad']
+['C_alkane', 'Y_2centeradjbirad']
+['C_methane', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'O_sec_rad']
+['C/H3/Cs\\Cs|H3', 'Cs_rad']
+['C/H3/Cs\\H3', 'O_sec_rad']
+['C_methane', 'O_rad/NonDeO']
+['C_alkane', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_1centerbirad']
+['C/H3/Cs\\H3', 'Y_1centerbirad']
+['C_alkane', 'Y_1centerbirad']
+['C/H3/Cs\\Cs|H3', 'O_pri_rad']
+['C_alkane', 'O_sec_rad']
+['C/H3/Cs\\H3', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_rad']
+['C/H3/Cs\\H3', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['C_alkane', 'Cs_rad']
+['C/H3/Cs\\Cs|H3', 'C_methyl']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['C_alkane', 'O_pri_rad']
+['C/H3/Cs\\H3', 'Cs_rad']
+['C/H3/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'O_rad/NonDeO']
+['C_methane', 'O_pri_rad']
+['C_methane', 'Y_1centerbirad']
 """,
 )
 
@@ -516,14 +836,16 @@ entry(
 5    H u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (-900.5002051829048, 'J/mol'),
+        correction = (-1605.6465403400744, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 2 solvation corrections.
+    shortDesc = u"""Fitted to 9 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=61 label="C_methane">, <Entry index=193 label="O_pri_rad">]
+['C_methane', 'O_pri_rad']
+['C_methane', 'Y_1centerbirad']
+['C_methane', 'O_rad/NonDeO']
+['C_methane', 'Y_rad']
 """,
 )
 
@@ -542,15 +864,19 @@ entry(
 8    H  u0 {2,S}
 """,
     correction = BarrierCorrection(
-        correction = (-1627.169607619633, 'J/mol'),
+        correction = (-1302.4881040729883, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 18 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=193 label="O_pri_rad">]
+['C/H3/Cs\\H3', 'C_methyl']
+['C/H3/Cs\\H3', 'O_sec_rad']
+['C/H3/Cs\\H3', 'Y_rad']
+['C/H3/Cs\\H3', 'Cs_rad']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['C/H3/Cs\\H3', 'Y_1centerbirad']
+['C/H3/Cs\\H3', 'O_pri_rad']
 """,
 )
 
@@ -570,14 +896,20 @@ entry(
 9    H  u0 {2,S}
 """,
     correction = BarrierCorrection(
-        correction = (-2222.6611113912695, 'J/mol'),
+        correction = (-1007.5527863632467, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 2 solvation corrections.
+    shortDesc = u"""Fitted to 60 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
+['C/H3/Cs\\Cs|H3', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['C/H3/Cs\\Cs|H3', 'O_sec_rad']
+['C/H3/Cs\\Cs|H3', 'Y_1centerbirad']
+['C/H3/Cs\\Cs|H3', 'Cs_rad']
+['C/H3/Cs\\Cs|H3', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'O_pri_rad']
 """,
 )
 
@@ -592,18 +924,37 @@ entry(
 4    O u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (612.306512394671, 'J/mol'),
+        correction = (-158.10603296187978, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 9 solvation corrections.
+    shortDesc = u"""Fitted to 92 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
+['C/H3/O', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_pri_rad']
+['C/H3/O', 'O_sec_rad']
+['C/H3/O\\H', 'C_methyl']
+['C/H3/O\\H', 'Y_rad']
+['C/H3/O', 'O_pri_rad']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_sec_rad']
+['C/H2/Cs/O', 'O_pri_rad']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'Y_2centeradjbirad']
+['C/H3/O\\H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'C_methyl']
+['C/H3/O', 'Y_1centerbirad']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'Cs_rad']
+['C/H3/O\\H', 'Y_1centerbirad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['C/H2/Cs/O', 'Y_rad']
+['C/H2/Cs/O', 'C_methyl']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['C/H3/O', 'Y_rad']
+['C/H2/Cs/O\\H', 'Y_1centerbirad']
+['C/H3/O', 'C_methyl']
+['C/H2/Cs/O\\H', 'Y_rad']
 """,
 )
 
@@ -619,15 +970,25 @@ entry(
 5    O u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (509.04779239697734, 'J/mol'),
+        correction = (-3.9519992742694967, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 45 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
+['C/H3/O\\H', 'Y_rad']
+['C/H3/O', 'O_sec_rad']
+['C/H3/O', 'O_rad/NonDeO']
+['C/H3/O', 'O_pri_rad']
+['C/H3/O\\H', 'O_sec_rad']
+['C/H3/O', 'Y_rad']
+['C/H3/O\\H', 'O_pri_rad']
+['C/H3/O\\H', 'Y_1centerbirad']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['C/H3/O\\H', 'Cs_rad']
+['C/H3/O', 'Y_1centerbirad']
+['C/H3/O', 'C_methyl']
+['C/H3/O\\H', 'C_methyl']
 """,
 )
 
@@ -644,15 +1005,19 @@ entry(
 6    H u0 {2,S}
 """,
     correction = BarrierCorrection(
-        correction = (509.0477923969793, 'J/mol'),
+        correction = (363.2913065949025, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 32 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
+['C/H3/O\\H', 'Y_rad']
+['C/H3/O\\H', 'O_sec_rad']
+['C/H3/O\\H', 'O_pri_rad']
+['C/H3/O\\H', 'Y_1centerbirad']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['C/H3/O\\H', 'Cs_rad']
+['C/H3/O\\H', 'C_methyl']
 """,
 )
 
@@ -668,15 +1033,24 @@ entry(
 5    O  u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (663.9358723935186, 'J/mol'),
+        correction = (-310.33314122837214, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 6 solvation corrections.
+    shortDesc = u"""Fitted to 47 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
+['C/H2/Cs/O', 'C_methyl']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'Cs_rad']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'Y_2centeradjbirad']
+['C/H2/Cs/O', 'O_pri_rad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['C/H2/Cs/O\\H', 'Y_1centerbirad']
+['C/H2/Cs/O\\H', 'Y_rad']
+['C/H2/Cs/O\\H', 'C_methyl']
+['C/H2/Cs/O', 'Y_rad']
 """,
 )
 
@@ -693,15 +1067,20 @@ entry(
 6    H  u0 {2,S}
 """,
     correction = BarrierCorrection(
-        correction = (663.9358723935192, 'J/mol'),
+        correction = (-249.44593973927567, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 6 solvation corrections.
+    shortDesc = u"""Fitted to 42 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
+['C/H2/Cs/O\\H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'Y_2centeradjbirad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['C/H2/Cs/O\\H', 'Y_1centerbirad']
+['C/H2/Cs/O\\H', 'Y_rad']
+['C/H2/Cs/O\\H', 'C_methyl']
 """,
 )
 
@@ -733,12 +1112,12 @@ entry(
     group = 
 """
 1 *1 C  u0 {2,S} {3,S} {4,S} {5,S}
-2 *2 H  u0 {1,S}
-3    H  u0 {1,S}
-4    Cs u0 {1,S} {6,S}
-5    O  u0 {1,S} {7,S}
-6    Cs u0 {4,S}
-7    H  u0 {5,S}
+2    Cs u0 {1,S} {6,S}
+3    O  u0 {1,S} {7,S}
+4 *2 H  u0 {1,S}
+5    H  u0 {1,S}
+6    Cs u0 {2,S}
+7    H  u0 {3,S}
 """,
     correction = BarrierCorrection(
         correction = None,
@@ -762,15 +1141,20 @@ entry(
 5    O  u0 {2,S}
 """,
     correction = BarrierCorrection(
-        correction = (1165.2841923589017, 'J/mol'),
+        correction = (-878.7480418954246, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 21 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'Y_1centerbirad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['C/H2/Cs/Cs\\O|H', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_2centeradjbirad']
+['C/H2/Cs/Cs\\O|H', 'Y_rad']
 """,
 )
 
@@ -832,15 +1216,20 @@ entry(
 6    O  u0 {2,S}
 """,
     correction = BarrierCorrection(
-        correction = (1165.2841923589021, 'J/mol'),
+        correction = (-878.7480418953919, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 21 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'Y_1centerbirad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['C/H2/Cs/Cs\\O|H', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_2centeradjbirad']
+['C/H2/Cs/Cs\\O|H', 'Y_rad']
 """,
 )
 
@@ -858,15 +1247,20 @@ entry(
 7    H  u0 {3,S}
 """,
     correction = BarrierCorrection(
-        correction = (1165.2841923589008, 'J/mol'),
+        correction = (-878.7480418953947, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 3 solvation corrections.
+    shortDesc = u"""Fitted to 21 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'Y_1centerbirad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['C/H2/Cs/Cs\\O|H', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_2centeradjbirad']
+['C/H2/Cs/Cs\\O|H', 'Y_rad']
 """,
 )
 
@@ -932,13 +1326,13 @@ entry(
 8    H  u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (1633.972182140471, 'J/mol'),
+        correction = (1711.0780672995418, 'J/mol'),
     ),
     shortDesc = u"""Fitted to 1 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=87 label="C/H2/NonDeC_6ring">, <Entry index=261 label="C_methyl">]
+['C/H2/NonDeC_6ring', 'C_methyl']
 """,
 )
 
@@ -1365,12 +1759,27 @@ entry(
 1 *3 [Cs,Cd,CO,CS,O,S,N] u2
 """,
     correction = BarrierCorrection(
-        correction = None,
+        correction = (-2191.801284127828, 'J/mol'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Fitted to 61 solvation corrections.
+""",
     longDesc = 
 u"""
-
+['O_sec', 'Y_1centerbirad']
+['C/H2/Cs/Cs\\O|H', 'Y_1centerbirad']
+['C/H3/Cs\\Cs|H3', 'Y_1centerbirad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_1centerbirad']
+['O/H/NonDeC', 'Y_1centerbirad']
+['C/H3/Cs\\H3', 'Y_1centerbirad']
+['C/H3/O\\H', 'Y_1centerbirad']
+['O/H/Cs\\Cs|H3', 'Y_1centerbirad']
+['Xrad_H', 'Y_1centerbirad']
+['C/H3/O', 'Y_1centerbirad']
+['C/H2/Cs/O\\H', 'Y_1centerbirad']
+['X_H', 'Y_1centerbirad']
+['C_alkane', 'Y_1centerbirad']
+['C_methane', 'Y_1centerbirad']
+['Cs_H', 'Y_1centerbirad']
 """,
 )
 
@@ -1382,43 +1791,115 @@ entry(
 1 *3 R u1
 """,
     correction = BarrierCorrection(
-        correction = (-7.691625114603085e-13, 'J/mol'),
+        correction = (149.2808240870495, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 47 solvation corrections.
+    shortDesc = u"""Fitted to 936 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=60 label="Cs_H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=64 label="C_alkane">, <Entry index=261 label="C_methyl">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=87 label="C/H2/NonDeC_6ring">, <Entry index=261 label="C_methyl">]
-[<Entry index=60 label="Cs_H">, <Entry index=261 label="C_methyl">]
-[<Entry index=64 label="C_alkane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=61 label="C_methane">, <Entry index=193 label="O_pri_rad">]
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C/H3/O', 'O_rad/NonDeO']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['C/H3/O\\H', 'C_methyl']
+['X_H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H3/O', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H3/O\\H', 'O_pri_rad']
+['C/H2/Cs/O', 'O_pri_rad']
+['O_sec', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'O_pri_rad']
+['Cs_H', 'O_pri_rad']
+['Xrad_H', 'O_pri_rad']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['X_H', 'Y_rad']
+['Xrad_H', 'C_methyl']
+['C/H3/Cs\\H3', 'Y_rad']
+['O/H/Cs\\H3', 'C_methyl']
+['X_H', 'Cs_rad']
+['Cs_H', 'Y_2centeradjbirad']
+['C/H2/Cs/O', 'Y_rad']
+['C/H2/Cs/O', 'C_methyl']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['C/H3/O', 'C_methyl']
+['C/H2/Cs/O\\H', 'Y_rad']
+['C_methane', 'O_pri_rad']
+['O/H/NonDeC', 'O_pri_rad']
+['X_H', 'O_pri_rad']
+['C/H3/Cs\\Cs|H3', 'O_sec_rad']
+['O_sec', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_rad']
+['C/H3/O\\H', 'Y_rad']
+['C/H3/Cs\\H3', 'O_sec_rad']
+['C/H2/Cs/O\\H', 'Y_2centeradjbirad']
+['C/H3/O\\H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'C_methyl']
+['Cs_H', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_rad']
+['O/H/NonDeC', 'Cs_rad']
+['Xrad_H', 'Cs_rad']
+['Cs_H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['Cs_H', 'Y_rad']
+['C/H2/Cs/Cs\\O|H', 'Y_2centeradjbirad']
+['C/H2/Cs/O\\H', 'Cs_rad']
+['O_sec', 'C_methyl']
+['O/H/Cs\\Cs|Cs/H3', 'Y_2centeradjbirad']
+['C/H3/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['X_H', 'O_sec_rad']
+['O/H/Cs\\Cs|H3', 'Y_rad']
+['C/H3/O', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['C/H2/NonDeC_6ring', 'C_methyl']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['O_sec', 'O_sec_rad']
+['Cs_H', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
+['C_alkane', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'Y_rad']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['O/H/NonDeC', 'Y_rad']
+['C/H3/Cs\\Cs|H3', 'C_methyl']
+['O_sec', 'O_pri_rad']
+['C_alkane', 'C_methyl']
+['O/H/NonDeC', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'Cs_rad']
+['C_alkane', 'Y_rad']
+['C_alkane', 'Y_2centeradjbirad']
+['CH2_triplet_H', 'Y_rad']
+['C/H3/Cs\\H3', 'C_methyl']
+['Xrad_H', 'O_sec_rad']
+['C/H3/O', 'O_sec_rad']
+['O_sec', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['O_sec', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'Cs_rad']
+['CH2_triplet_H', 'O_pri_rad']
+['O/H/NonDeC', 'Y_2centeradjbirad']
+['C_methane', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'O_sec_rad']
+['C_methane', 'Y_rad']
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['O/H/NonDeC', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['C_alkane', 'Cs_rad']
+['C/H3/Cs\\H3', 'Cs_rad']
+['O/H/NonDeC', 'O_rad/NonDeO']
+['Xrad_H', 'Y_rad']
+['Cs_H', 'O_rad/NonDeO']
 """,
 )
 
@@ -1431,12 +1912,21 @@ entry(
 2    [Ct,Os,Ss] u1 {1,[S,T]}
 """,
     correction = BarrierCorrection(
-        correction = None,
+        correction = (-2713.135966421118, 'J/mol'),
     ),
-    shortDesc = u"""""",
+    shortDesc = u"""Fitted to 24 solvation corrections.
+""",
     longDesc = 
 u"""
-
+['C_alkane', 'Y_2centeradjbirad']
+['Cs_H', 'Y_2centeradjbirad']
+['O/H/NonDeC', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|Cs/H3', 'Y_2centeradjbirad']
+['C/H3/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['C/H2/Cs/O\\H', 'Y_2centeradjbirad']
+['O_sec', 'Y_2centeradjbirad']
+['O/H/Cs\\Cs|H3', 'Y_2centeradjbirad']
+['C/H2/Cs/Cs\\O|H', 'Y_2centeradjbirad']
 """,
 )
 
@@ -1449,32 +1939,60 @@ entry(
 2    R u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (234.04087514270662, 'J/mol'),
+        correction = (1970.8765460050347, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 28 solvation corrections.
+    shortDesc = u"""Fitted to 337 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=60 label="Cs_H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=61 label="C_methane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C/H3/O', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_sec_rad']
+['X_H', 'O_pri_rad']
+['Xrad_H', 'O_sec_rad']
+['C/H3/Cs\\Cs|H3', 'O_sec_rad']
+['O_sec', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['X_H', 'O_rad/NonDeO']
+['CH2_triplet_H', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H3/Cs\\H3', 'O_sec_rad']
+['C/H3/O', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['C_methane', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['C/H2/Cs/O', 'O_pri_rad']
+['O_sec', 'O_sec_rad']
+['Cs_H', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
+['C_alkane', 'O_pri_rad']
+['C/H3/Cs\\Cs|H3', 'O_pri_rad']
+['X_H', 'O_sec_rad']
+['Cs_H', 'O_pri_rad']
+['Xrad_H', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['C/H3/O', 'O_sec_rad']
+['C_alkane', 'O_sec_rad']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['O_sec', 'O_pri_rad']
+['O/H/NonDeC', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['C/H3/Cs\\H3', 'O_pri_rad']
+['C_alkane', 'O_rad/NonDeO']
+['O/H/NonDeC', 'O_rad/NonDeO']
+['C_methane', 'O_pri_rad']
+['O/H/NonDeC', 'O_pri_rad']
+['Cs_H', 'O_rad/NonDeO']
 """,
 )
 
@@ -1487,23 +2005,30 @@ entry(
 2    H u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (-272.8879841534819, 'J/mol'),
+        correction = (758.2805208116775, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 17 solvation corrections.
+    shortDesc = u"""Fitted to 79 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=60 label="Cs_H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=64 label="C_alkane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=61 label="C_methane">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=193 label="O_pri_rad">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=193 label="O_pri_rad">]
+['CH2_triplet_H', 'O_pri_rad']
+['Cs_H', 'O_pri_rad']
+['Xrad_H', 'O_pri_rad']
+['C/H2/Cs/Cs\\O|H', 'O_pri_rad']
+['C/H3/O', 'O_pri_rad']
+['C/H3/O\\H', 'O_pri_rad']
+['X_H', 'O_pri_rad']
+['C/H3/Cs\\H3', 'O_pri_rad']
+['O/H/Cs\\Cs|H3', 'O_pri_rad']
+['C/H2/Cs/O', 'O_pri_rad']
+['C/H2/Cs/O\\H', 'O_pri_rad']
+['O/H/NonDeC', 'O_pri_rad']
+['O/H/Cs\\H3', 'O_pri_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_pri_rad']
+['C_methane', 'O_pri_rad']
+['C_alkane', 'O_pri_rad']
+['C/H3/Cs\\Cs|H3', 'O_pri_rad']
+['O_sec', 'O_pri_rad']
 """,
 )
 
@@ -1516,21 +2041,42 @@ entry(
 2    R!H u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (909.9460208709534, 'J/mol'),
+        correction = (2355.176209374042, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 11 solvation corrections.
+    shortDesc = u"""Fitted to 258 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=64 label="C_alkane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
+['Cs_H', 'O_rad/NonDeO']
+['C/H3/O', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['X_H', 'O_sec_rad']
+['Xrad_H', 'O_sec_rad']
+['C/H3/Cs\\Cs|H3', 'O_sec_rad']
+['O_sec', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'O_sec_rad']
+['X_H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H3/Cs\\H3', 'O_sec_rad']
+['C/H2/Cs/Cs\\O|H', 'O_sec_rad']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_sec_rad']
+['C_methane', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['O_sec', 'O_sec_rad']
+['Cs_H', 'O_sec_rad']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_sec_rad']
+['C/H3/O', 'O_sec_rad']
+['C_alkane', 'O_sec_rad']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['O/H/NonDeC', 'O_sec_rad']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
+['C_alkane', 'O_rad/NonDeO']
+['O/H/NonDeC', 'O_rad/NonDeO']
 """,
 )
 
@@ -1543,21 +2089,28 @@ entry(
 2    O u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (909.9460208709528, 'J/mol'),
+        correction = (2367.5492365418268, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 11 solvation corrections.
+    shortDesc = u"""Fitted to 210 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=61 label="C_methane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=64 label="C_alkane">, <Entry index=195 label="O_rad/NonDeO">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=195 label="O_rad/NonDeO">]
+['Cs_H', 'O_rad/NonDeO']
+['C/H2/Cs/Cs\\O|H', 'O_rad/NonDeO']
+['C/H2/Cs/O\\H', 'O_rad/NonDeO']
+['O_sec', 'O_rad/NonDeO']
+['C/H3/Cs\\Cs|H3', 'O_rad/NonDeO']
+['C/H2/Cs/O', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|Cs/H3', 'O_rad/NonDeO']
+['C_methane', 'O_rad/NonDeO']
+['C_alkane', 'O_rad/NonDeO']
+['C/H3/O\\H', 'O_rad/NonDeO']
+['O/H/Cs\\H3', 'O_rad/NonDeO']
+['O/H/NonDeC', 'O_rad/NonDeO']
+['C/H3/Cs\\H3', 'O_rad/NonDeO']
+['C/H3/O', 'O_rad/NonDeO']
+['X_H', 'O_rad/NonDeO']
+['O/H/Cs\\Cs|H3', 'O_rad/NonDeO']
 """,
 )
 
@@ -1572,23 +2125,40 @@ entry(
 4    R u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (-385.47908847034324, 'J/mol'),
+        correction = (-473.0508061941705, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 19 solvation corrections.
+    shortDesc = u"""Fitted to 282 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=87 label="C/H2/NonDeC_6ring">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=60 label="Cs_H">, <Entry index=261 label="C_methyl">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=64 label="C_alkane">, <Entry index=261 label="C_methyl">]
+['C/H3/Cs\\Cs|H3', 'Cs_rad']
+['C/H3/O\\H', 'C_methyl']
+['C/H2/Cs/Cs\\O|H', 'Cs_rad']
+['O_sec', 'Cs_rad']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['O/H/NonDeC', 'C_methyl']
+['C/H2/NonDeC_6ring', 'C_methyl']
+['C/H3/O\\H', 'Cs_rad']
+['C/H2/Cs/O\\H', 'C_methyl']
+['Cs_H', 'C_methyl']
+['C/H3/Cs\\H3', 'C_methyl']
+['O/H/NonDeC', 'Cs_rad']
+['C/H2/Cs/O\\H', 'Cs_rad']
+['Xrad_H', 'C_methyl']
+['Xrad_H', 'Cs_rad']
+['Cs_H', 'Cs_rad']
+['O/H/Cs\\H3', 'C_methyl']
+['X_H', 'Cs_rad']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'C_methyl']
+['C_alkane', 'C_methyl']
+['C/H2/Cs/O', 'C_methyl']
+['O_sec', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'Cs_rad']
+['C_alkane', 'Cs_rad']
+['C/H3/Cs\\H3', 'Cs_rad']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['C/H3/O', 'C_methyl']
 """,
 )
 
@@ -1603,23 +2173,28 @@ entry(
 4    H u0 {1,S}
 """,
     correction = BarrierCorrection(
-        correction = (-385.4790884703434, 'J/mol'),
+        correction = (-2962.467963052744, 'J/mol'),
     ),
-    shortDesc = u"""Fitted to 19 solvation corrections.
+    shortDesc = u"""Fitted to 64 solvation corrections.
 """,
     longDesc = 
 u"""
-[<Entry index=76 label="C/H2/Cs/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=87 label="C/H2/NonDeC_6ring">, <Entry index=261 label="C_methyl">]
-[<Entry index=8 label="O/H/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=74 label="C/H3/O\H">, <Entry index=261 label="C_methyl">]
-[<Entry index=7 label="O/H/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=62 label="C/H3/Cs\H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=69 label="C/H2/Cs/Cs\O|H">, <Entry index=261 label="C_methyl">]
-[<Entry index=60 label="Cs_H">, <Entry index=261 label="C_methyl">]
-[<Entry index=9 label="O/H/Cs\Cs|Cs/H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=63 label="C/H3/Cs\Cs|H3">, <Entry index=261 label="C_methyl">]
-[<Entry index=64 label="C_alkane">, <Entry index=261 label="C_methyl">]
+['Cs_H', 'C_methyl']
+['C/H3/Cs\\H3', 'C_methyl']
+['C/H3/O', 'C_methyl']
+['C/H2/Cs/O', 'C_methyl']
+['O/H/Cs\\Cs|Cs/H3', 'C_methyl']
+['Xrad_H', 'C_methyl']
+['C/H3/O\\H', 'C_methyl']
+['O/H/Cs\\H3', 'C_methyl']
+['C/H2/NonDeC_6ring', 'C_methyl']
+['C/H2/Cs/Cs\\O|H', 'C_methyl']
+['O/H/Cs\\Cs|H3', 'C_methyl']
+['C/H2/Cs/O\\H', 'C_methyl']
+['C/H3/Cs\\Cs|H3', 'C_methyl']
+['C_alkane', 'C_methyl']
+['O/H/NonDeC', 'C_methyl']
+['O_sec', 'C_methyl']
 """,
 )
 
