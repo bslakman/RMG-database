@@ -10,7 +10,7 @@ longDesc = u"""
 entry(
     index = 1,
     label = "X_H_or_Xrad_H_Xbirad_H_Xtrirad_H",
-    group = "OR{H2, C_H, O_H}",
+    group = "OR{H2, C_H, O_H, Si_H}",
     distances = DistanceData(
         distances = {'d12': 1.29715, 'd13': 2.57849, 'd23': 1.29649},
         uncertainties = {'d12': 0.112158, 'd13': 0.077474, 'd23': 0.112405},
@@ -631,7 +631,7 @@ u"""
 entry(
     index = 2,
     label = "Y_rad_birad_trirad_quadrad",
-    group = "OR{Hrad, Orad, Crad}",
+    group = "OR{Hrad, Orad, Crad, Sirad}",
     distances = DistanceData(distances={}),
 )
 
