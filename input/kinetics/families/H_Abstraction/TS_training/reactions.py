@@ -26267,72 +26267,72 @@ entry(
     shortDesc = u"""Reverse reaction for reaction index 1076""",
 )
 
-entry(
-    index = 2145,
-    label = "C2H3O-3 + CH4S <=> C2H4O-3 + CH3S",
-    degeneracy = 1,
-    distances = DistanceData(
-        distances = {'d12': 1.54330, 'd13': 2.78280, 'd23': 1.32648},
-        method = 'm062x/mg3s',
-    ),
-    shortDesc = u"""Manual calculation at M06-2X/MG3S.""",
-)
+#entry(
+#    index = 2145,
+#    label = "C2H3O-3 + CH4S <=> C2H4O-3 + CH3S",
+#    degeneracy = 1,
+#    distances = DistanceData(
+#        distances = {'d12': 1.54330, 'd13': 2.78280, 'd23': 1.32648},
+#        method = 'm062x/mg3s',
+#    ),
+#    shortDesc = u"""Manual calculation at M06-2X/MG3S.""",
+#)
+#
+#entry(
+#    index = 2146,
+#    label = "C2H4O-3 + CH3S <=> C2H3O-3 + CH4S",
+#    degeneracy = 1,
+#    distances = DistanceData(
+#        distances = {'d12': 1.32648, 'd13': 2.78280, 'd23': 1.54330},
+#        method = 'm062x/mg3s',
+#    ),
+#    shortDesc = u"""Reverse reaction for reaction index 2145""",
+#)
 
-entry(
-    index = 2146,
-    label = "C2H4O-3 + CH3S <=> C2H3O-3 + CH4S",
-    degeneracy = 1,
-    distances = DistanceData(
-        distances = {'d12': 1.32648, 'd13': 2.78280, 'd23': 1.54330},
-        method = 'm062x/mg3s',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 2145""",
-)
+#entry(
+#    index = 2147,
+#    label = "H2S + HO <=> H2O + HS",
+#    degeneracy = 1,
+#    distances = DistanceData(
+#        distances = {'d12': 1.39402, 'd13': 2.71472, 'd23': 1.49743},
+#        method = 'm062x/mg3s',
+#    ),
+#    shortDesc = u"""Manual calculation at M06-2X/MG3S.""",
+#)
+#
+#entry(
+#    index = 2148,
+#    label = "H2O + HS <=> H2S + HO",
+#    degeneracy = 1,
+#    distances = DistanceData(
+#        distances = {'d12': 1.49743, 'd13': 2.71472, 'd23': 1.39402},
+#        method = 'm062x/mg3s',
+#    ),
+#    shortDesc = u"""Reverse reaction for reaction index 2147""",
+#)
 
-entry(
-    index = 2147,
-    label = "H2S + HO <=> H2O + HS",
-    degeneracy = 1,
-    distances = DistanceData(
-        distances = {'d12': 1.39402, 'd13': 2.71472, 'd23': 1.49743},
-        method = 'm062x/mg3s',
-    ),
-    shortDesc = u"""Manual calculation at M06-2X/MG3S.""",
-)
-
-entry(
-    index = 2148,
-    label = "H2O + HS <=> H2S + HO",
-    degeneracy = 1,
-    distances = DistanceData(
-        distances = {'d12': 1.49743, 'd13': 2.71472, 'd23': 1.39402},
-        method = 'm062x/mg3s',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 2147""",
-)
-
-entry(
-    index = 2149,
-    label = "Cl + H2O2 <=> ClH + HO2-1",
-    degeneracy = 1,
-    distances = DistanceData(
-        distances = {'d12': 1.05063, 'd13': 2.57725, 'd23': 1.68715},
-        method = 'm062x/mg3s',
-    ),
-    shortDesc = u"""Manual calculation at M06-2X/MG3S.""",
-)
-
-entry(
-    index = 2150,
-    label = "ClH + HO2-1 <=> Cl + H2O2",
-    degeneracy = 1,
-    distances = DistanceData(
-        distances = {'d12': 1.68715, 'd13': 2.57725, 'd23': 1.05063},
-        method = 'm062x/mg3s',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 2149""",
-)
-
+#entry(
+#    index = 2149,
+#    label = "Cl + H2O2 <=> ClH + HO2-1",
+#    degeneracy = 1,
+#    distances = DistanceData(
+#        distances = {'d12': 1.05063, 'd13': 2.57725, 'd23': 1.68715},
+#        method = 'm062x/mg3s',
+#    ),
+#    shortDesc = u"""Manual calculation at M06-2X/MG3S.""",
+#)
+#
+#entry(
+#    index = 2150,
+#    label = "ClH + HO2-1 <=> Cl + H2O2",
+#    degeneracy = 1,
+#    distances = DistanceData(
+#        distances = {'d12': 1.68715, 'd13': 2.57725, 'd23': 1.05063},
+#        method = 'm062x/mg3s',
+#    ),
+#    shortDesc = u"""Reverse reaction for reaction index 2149""",
+#)
+#
 entry(
     index = 2151,
     label = "H + H4Si <=> H2 + H3Si",

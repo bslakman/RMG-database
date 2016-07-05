@@ -25,8 +25,8 @@ from rmgpy.data.base import getAllCombinations
 from rmgpy.species import Species
 from rmgpy.data.kinetics.transitionstates import TransitionStates, TransitionStateDepository, TSGroups
 
-from importOldDatabase import getUsername
-user = getUsername()
+#from importOldDatabase import getUsername
+user = "Belinda Slakman <slakman.b@husky.neu.edu>" 
 
 ################################################################################
 
