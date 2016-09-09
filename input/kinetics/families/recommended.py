@@ -40,7 +40,7 @@ recommendedFamilies = {
 'R_Addition_CSm':False,
 'R_Addition_MultipleBond':True,
 'R_Recombination':True,
-'Silylene_Insertion':False,
+'Silylene_Insertion':True,
 'Silylene_to_Silene':False,
 'SubstitutionS':False,
 'Substitution_O':False,
