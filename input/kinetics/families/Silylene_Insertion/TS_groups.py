@@ -9,7 +9,7 @@ longDesc = u"""
 
 entry(
     index = 1,
-    label = "Si2S_R_H",
+    label = "Si2S",
     group = 
 """
 1 *3 Si u0 p1 c0
@@ -95,7 +95,7 @@ entry(
 
 tree(
 """
-L1: Si2S_R_H
+L1: Si2S
     L2: SiH2
     L2: SiHR
     L2: SiRR
