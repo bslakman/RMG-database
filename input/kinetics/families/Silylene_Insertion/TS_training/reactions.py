@@ -34,26 +34,48 @@ entry(
     shortDesc = u"""Manual M06-2X/MG3S calculation.""",
 )
 
+#entry(
+#    index = 4,
+#    label = "CHN + H2Si <=> CH3NSi",
+#    degeneracy = 1,
+#    distances = DistanceData(
+#        distances = {'d12': 1.34749, 'd13': 1.87265, 'd23': 1.69676},
+#        method = 'm062x/mg3s',
+#    ),
+#    rank = 3,
+#    shortDesc = u"""Manual M06-2X/MG3S calculation.""",
+#)
+#
+#entry(
+#    index = 5,
+#    label = "ClHSi + H2 <=> ClH3Si",
+#    degeneracy = 1,
+#    distances = DistanceData(
+#        distances = {'d12': 1.19488, 'd13': 1.64983, 'd23': 1.50694},
+#        method = 'm062x/mg3s',
+#    ),
+#    rank = 3,
+#    shortDesc = u"""Manual M06-2X/MG3S calculation.""",
+#)
 entry(
     index = 4,
-    label = "CHN + H2Si <=> CH3NSi",
-    degeneracy = 1,
+    label = "H2Si2 + H2 <=> H4Si2-1",
+    degeneracy = 2,
     distances = DistanceData(
-        distances = {'d12': 1.34749, 'd13': 1.87265, 'd23': 1.69676},
-        method = 'm062x/mg3s',
+        distances = {'d12': 0.97188, 'd13': 1.68122, 'd23': 1.65256},
+        method = 'm062x/gen',
     ),
-    rank = 3,
-    shortDesc = u"""Manual M06-2X/MG3S calculation.""",
+    shortDesc = u"""M06-2X/MG3S calculation via group additive TS generator.""",
 )
 
 entry(
     index = 5,
-    label = "ClHSi + H2 <=> ClH3Si",
-    degeneracy = 1,
+    label = "HSi + H2 <=> H3Si",
+    degeneracy = 2,
     distances = DistanceData(
-        distances = {'d12': 1.19488, 'd13': 1.64983, 'd23': 1.50694},
-        method = 'm062x/mg3s',
+        distances = {'d12': 1.28463, 'd13': 1.54121, 'd23': 1.61921},
+        method = 'm062x/gen',
     ),
-    rank = 3,
-    shortDesc = u"""Manual M06-2X/MG3S calculation.""",
+    shortDesc = u"""M06-2X/MG3S calculation via group additive TS generator.""",
 )
+

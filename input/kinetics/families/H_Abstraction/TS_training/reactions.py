@@ -26422,28 +26422,6 @@ entry(
 
 entry(
     index = 2159,
-    label = "H4Si + H5Si2 <=> H6Si2 + H3Si",
-    degeneracy = 16,
-    distances = DistanceData(
-        distances = {'d12': 2.402079, 'd13': 5.175244, 'd23': 6.681649},
-        method = 'm062x/gen',
-    ),
-    shortDesc = u"""Manual M06-2X/MG3S calculation""",
-)
-
-entry(
-    index = 2160,
-    label = "H6Si2 + H3Si <=> H4Si + H5Si2",
-    degeneracy = 1,
-    distances = DistanceData(
-        distances = {'d12': 2.402079, 'd13': 5.175244, 'd23': 2.402079},
-        method = 'm062x/gen',
-    ),
-    shortDesc = u"""Reverse reaction for reaction index 2157""",
-)
-
-entry(
-    index = 2161,
     label = "H8Si3-6 + H3Si <=> H4Si + H7Si3-1",
     degeneracy = 4,
     distances = DistanceData(
@@ -26454,7 +26432,7 @@ entry(
 )
 
 entry(
-    index = 2162,
+    index = 2160,
     label = "H4Si + H7Si3-1 <=> H8Si3-6 + H3Si",
     degeneracy = 1,
     distances = DistanceData(
@@ -26465,7 +26443,7 @@ entry(
 )
 
 entry(
-    index = 2163,
+    index = 2161,
     label = "H8Si3 + H3Si <=> H4Si + H7Si3",
     degeneracy = 18,
     distances = DistanceData(
@@ -26476,7 +26454,7 @@ entry(
 )
 
 entry(
-    index = 2164,
+    index = 2162,
     label = "H4Si + H7Si3 <=> H8Si3 + H3Si",
     degeneracy = 1,
     distances = DistanceData(
@@ -26487,7 +26465,7 @@ entry(
 )
 
 entry(
-    index = 2336,
+    index = 2163,
     label = "H4Si2 + H <=> H2 + H3Si2",
     degeneracy = 8,
     distances = DistanceData(
@@ -26498,7 +26476,7 @@ entry(
 )
 
 entry(
-    index = 2337,
+    index = 2164,
     label = "H2 + H3Si2 <=> H4Si2 + H",
     degeneracy = 1,
     distances = DistanceData(
@@ -26509,24 +26487,46 @@ entry(
 )
 
 entry(
-    index = 2338,
-    label = "H4Si2-1 + H2 <=> H5Si2-1 + H",
-    degeneracy = 2,
+    index = 2165,
+    label = "H2Si + H4Si <=> H3Si + H3Si",
+    degeneracy = 16,
     distances = DistanceData(
-        distances = {'d12': 2.4081, 'd13': 4.42279, 'd23': 3.64229},
+        distances = {'d12': 1.82365, 'd13': 3.48962, 'd23': 1.6876},
+        method = 'm062x/gen',
+    ),
+    shortDesc = u"""M06-2X/MG3S manual calculation""",
+)
+
+entry(
+    index = 2166,
+    label = "H3Si + H3Si <=> H2Si + H4Si",
+    degeneracy = 1,
+    distances = DistanceData(
+        distances = {'d12': 1.6876, 'd13': 3.48962, 'd23': 1.82365},
+        method = 'm062x/gen',
+    ),
+    shortDesc = u"""Reverse reaction for reaction index 2338""",
+)
+
+entry(
+    index = 2167,
+    label = "H + H4Si3 <=> H2 + H3Si3",
+    degeneracy = 9,
+    distances = DistanceData(
+        distances = {'d12': 1.52574, 'd13': 2.93317, 'd23': 1.41432},
         method = 'm062x/gen',
     ),
     shortDesc = u"""M06-2X/MG3S calculation via group additive TS generator.""",
 )
 
 entry(
-    index = 2339,
-    label = "H5Si2-1 + H <=> H4Si2-1 + H2",
+    index = 2168,
+    label = "H2 + H3Si3 <=> H + H4Si3",
     degeneracy = 1,
     distances = DistanceData(
-        distances = {'d12': 3.64229, 'd13': 4.42279, 'd23': 2.4081},
+        distances = {'d12': 1.41432, 'd13': 2.93317, 'd23': 1.52574},
         method = 'm062x/gen',
     ),
-    shortDesc = u"""Reverse reaction for reaction index 2338""",
+    shortDesc = u"""Reverse reaction for reaction index 2340""",
 )
 
