@@ -79,3 +79,25 @@ entry(
     shortDesc = u"""M06-2X/MG3S calculation via group additive TS generator.""",
 )
 
+entry(
+    index = 6,
+    label = "H6Si3-5 + H2 <=> H8Si3-1",
+    degeneracy = 2,
+    distances = DistanceData(
+        distances = {'d12': 1.10646, 'd13': 1.63128, 'd23': 1.54355},
+        method = 'm062x/gen',
+    ),
+    shortDesc = u"""M06-2X/MG3S calculation via group additive TS generator.""",
+)
+
+entry(
+    index = 7,
+    label = "H2Si + H6Si2-1 <=> H8Si3-1",
+    degeneracy = 6,
+    distances = DistanceData(
+        distances = {'d12': 2.23149, 'd13': 2.4995, 'd23': 1.49275},
+        method = 'm062x/gen',
+    ),
+    shortDesc = u"""M06-2X/MG3S calculation via group additive TS generator.""",
+)
+

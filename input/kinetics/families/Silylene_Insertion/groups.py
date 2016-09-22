@@ -9,7 +9,7 @@ longDesc = u"""
 
 template(reactants=["Si2S", "Y_H"], products=["Y_Si2S_H"], ownReverse=False)
 
-#reverse = "Silylene_Elimination"
+reverse = "Silylene_Elimination"
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*2'],
