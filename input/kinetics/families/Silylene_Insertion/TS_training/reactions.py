@@ -98,6 +98,17 @@ entry(
         distances = {'d12': 2.23149, 'd13': 2.4995, 'd23': 1.49275},
         method = 'm062x/gen',
     ),
+    shortDesc = u"""M06-2X/MG3S manual calculation""",
+)
+
+entry(
+    index = 8,
+    label = "H4Si-1 + HSi <=> H5Si2",
+    degeneracy = 4,
+    distances = DistanceData(
+        distances = {'d12': 1.79304, 'd13': 2.43714, 'd23': 1.61705},
+        method = 'm062x/gen',
+    ),
     shortDesc = u"""M06-2X/MG3S calculation via group additive TS generator.""",
 )
 

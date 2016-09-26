@@ -15,18 +15,19 @@ entry(
 1 *3 Si ux p1 c0
 """,
     distances = DistanceData(
-        distances = {'d12': 1.32477, 'd13': 1.80373, 'd23': 1.53228},
-        uncertainties = {'d12': 0.345576, 'd13': 0.236277, 'd23': 0.025871},
+        distances = {'d12': 1.3658, 'd13': 1.82941, 'd23': 1.53057},
+        uncertainties = {'d12': 0.326948, 'd13': 0.213281, 'd23': 0.023732},
     ),
-    shortDesc = u"""Fitted to 7 distances.
+    shortDesc = u"""Fitted to 8 distances.
 """,
     longDesc = 
 u"""
-['SiH2', 'H_H']
-['SiH2', 'SiH3_Si']
 ['Si-Si-Si', 'H_H']
-['Si-Si-H', 'H_H']
 ['Si2S', 'H_H']
+['SiH2', 'SiH3_Si']
+['Si-Si-H', 'H_H']
+['SiH2', 'H_H']
+['Si2S', 'SiH4']
 """,
 )
 
@@ -94,13 +95,14 @@ entry(
 2 *2 H  u0 p0 c0 {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.828111, 'd13': 0.642537, 'd23': -0.031942},
-        uncertainties = {},
+        distances = {'d12': 0.690639, 'd13': 0.609708, 'd23': -0.025019},
+        uncertainties = {'d12': 1.12745, 'd13': 0.666782, 'd23': 0.103834},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 2 distances.
 """,
     longDesc = 
 u"""
+['Si2S', 'SiH4']
 ['SiH2', 'SiH3_Si']
 """,
 )
@@ -117,13 +119,14 @@ entry(
 5    R  ux {1,S}
 """,
     distances = DistanceData(
-        distances = {'d12': 0.828111, 'd13': 0.642537, 'd23': -0.031942},
-        uncertainties = {},
+        distances = {'d12': 0.690639, 'd13': 0.609708, 'd23': -0.025019},
+        uncertainties = {'d12': 1.12745, 'd13': 0.666782, 'd23': 0.103834},
     ),
-    shortDesc = u"""Fitted to 1 distances.
+    shortDesc = u"""Fitted to 2 distances.
 """,
     longDesc = 
 u"""
+['Si2S', 'SiH4']
 ['SiH2', 'SiH3_Si']
 """,
 )
