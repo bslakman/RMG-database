@@ -6367,7 +6367,7 @@ entry(
     label = "Si_H",
     group = 
 """
-1 *1 Si u0 px c0 {2,S} 
+1 *1 Si u0 p0 c0 {2,S} 
 2 *2 H u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -6383,7 +6383,7 @@ entry(
     label = "Sid_H",
     group = 
 """
-1 *1 Sid u0 px c0 {2,S}  
+1 *1 Sid u0 p0 c0 {2,S}  
 2 *2 H u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -6399,7 +6399,7 @@ entry(
     label = "Sid_Si_H2",
     group = 
 """
-1 *1 Sid u0 px c0 {2,S} {3,D} {4,S}  
+1 *1 Sid u0 p0 c0 {2,S} {3,D} {4,S}  
 2 *2 H u0 p0 c0 {1,S}
 3    Si ux px {1,D}
 4    H u0 p0 c0 {1,S}
@@ -6417,7 +6417,7 @@ entry(
     label = "Sis_H",
     group = 
 """
-1 *1 Sis u0 px c0 {2,S}  
+1 *1 Sis u0 p0 c0 {2,S}  
 2 *2 H u0 p0 c0 {1,S}
 """,
     kinetics = None,
@@ -6433,7 +6433,7 @@ entry(
     label = "Sis_Si_H3",
     group = 
 """
-1 *1 Sis u0 px c0 {2,S} {3,S} {4,S} {5,S}  
+1 *1 Sis u0 p0 c0 {2,S} {3,S} {4,S} {5,S}  
 2 *2 H u0 p0 c0 {1,S}
 3  H u0 p0 c0 {1,S}
 4  H u0 p0 c0 {1,S}
@@ -6621,7 +6621,7 @@ entry(
     label = "Si_rad",
     group = 
 """
-1 *3 Si u1 px 
+1 *3 Si u1 p0 
 """,
     kinetics = None,
     shortDesc = u"""""",
